@@ -12,5 +12,20 @@ namespace MVCDemo.controller
         {
             return "This is Inedx Action" ;
         }
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs2()
+        {
+            return View();
+        }
+
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
     }
 }
